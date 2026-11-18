@@ -102,9 +102,10 @@ export default function AboutPage() {
           <div>
             <h2 className="font-display text-3xl text-forest sm:text-4xl">What “head to toe” means here</h2>
             <p className="mt-4 text-lg leading-8 text-ink md:text-xl md:leading-9">
-              Brain mapping and theta for the mind. Light and oxygen for cells and skin. Infrared and ionic work for
-              detoxification support. VibeX for fascia and the nervous system. AllCore360 for the deep core that
-              keeps you upright. You do not have to use every machine. You do have to start with a conversation.
+              AO Scan for wellness patterns. Frequency Matrix for light, PEMF, and sound. Theta for the mind. Red
+              light for cells and skin. Infrared and ionic work for detoxification support. VibeX for fascia and the
+              nervous system. AllCore360 for the deep core that keeps you upright. You do not have to use every
+              machine. You do have to start with a conversation.
             </p>
           </div>
           <div className="relative min-h-[280px] overflow-hidden rounded-xl ring-1 ring-foreground/10">

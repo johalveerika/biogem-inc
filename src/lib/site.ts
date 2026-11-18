@@ -3,6 +3,7 @@ export const clinic = {
   legalName: "BIOGEM INC.",
   tagline: "Advanced Technologies for Your Wellness",
   headline: "Healing, from Head to Toe",
+  website: "https://biogemwellness.ca",
   phone: "905-632-3555",
   phoneHref: "tel:+19056323555",
   email: "biogemhwc@gmail.com",

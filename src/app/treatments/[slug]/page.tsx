@@ -126,7 +126,7 @@ export default async function TreatmentPage({ params }: Props) {
             },
             {
               q: "Can I combine this with other Biogem therapies?",
-              a: "That is the point of the clinic. Oxygen, light, theta, infrared, vibration, and core work are designed to stack. We will not pile them on without a reason.",
+              a: "That is the point of the clinic. AO Scan, Frequency Matrix, light, theta, infrared, vibration, and core work are designed to stack. We will not pile them on without a reason.",
             },
           ]}
         />

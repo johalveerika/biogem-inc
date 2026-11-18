@@ -18,37 +18,72 @@ export type Treatment = {
 
 export const treatments: Treatment[] = [
   {
-    slug: "hyperbaric-oxygen-cube",
-    name: "Hyperbaric Oxygen Cube",
-    shortName: "Oxygen Cube",
-    category: "Cellular Recovery",
+    slug: "ao-scan",
+    name: "AO Scan Professional",
+    shortName: "AO Scan",
+    category: "Wellness Insight",
     duration: "60–90 minutes",
-    experience: "Seated · Quiet · Non-invasive",
-    image: "/images/hbot-cube.jpg",
-    tagline: "Breathe more oxygen. Give every cell a richer environment to repair.",
+    experience: "Seated · Headphones · Conversational",
+    image: "/images/ao-scan.png",
+    gallery: ["/images/ao-scan.png", "/images/ao-scan-consult.png"],
+    tagline: "Explore your wellness patterns before you choose a single device.",
     purpose:
-      "The Hyperbaric Oxygen Cube is designed to increase the amount of oxygen your blood can carry. In a comfortably pressurized sitting chamber you breathe a higher concentration of oxygen than room air can provide. The purpose is simple: injured, inflamed, or under-performing tissues need more oxygen than everyday breathing delivers. Extra oxygen in plasma can reach areas that are starved for it, supporting tissue repair, immune function, and recovery after stress or strain.",
+      "AO Scan Professional is a frequency-based wellness tool that gives practitioners reports they can use to guide a conversation about your routine—energy, rest, stress, and how you actually feel day to day. You sit comfortably with headphones while the system runs educational modules such as Inner Voice, Vitals, Comprehensive, and Body Systems. It is an educational wellness tool, not a medical test or diagnostic device. At Biogem it is often the first appointment: a structured way to see patterns before we sequence Frequency Matrix, light, theta, infrared, or core work.",
     howItWorks: [
-      "You settle into a private sitting cube. The door seals and pressure rises gradually—typically in the mild wellness range used in regenerative clinics.",
-      "Under higher atmospheric pressure, your lungs gather more oxygen than they can at sea level. That oxygen dissolves into plasma as well as red blood cells.",
-      "Circulation carries this oxygen-rich blood throughout the body, including tissues with limited blood flow.",
-      "Clinically studied effects of hyperbaric oxygen include reduced swelling, support for new blood-vessel growth, and help for white blood cells fighting infection. Wellness guests also use it for energy, focus, and post-training recovery.",
+      "You sit with a practitioner. Headphones on. The scan is quiet and non-invasive—no needles, no blood work, no radiation.",
+      "Frequency technology generates educational reports: Inner Voice, Vitals, a Comprehensive view, and Body Systems.",
+      "Together you review those patterns as a starting point for lifestyle conversation—sleep, recovery, stress load—and which Biogem therapies may belong in your first month.",
+      "A word or score on a report is not a diagnosis. It is a prompt for a more personal plan, not a substitute for your physician.",
     ],
     benefits: [
-      "Supports tissue repair and collagen formation",
-      "May reduce inflammation and swelling",
-      "Encourages circulation and new capillary growth",
-      "Used for recovery, mental clarity, and immune support",
-      "Calm, seated session—many guests read or rest",
+      "A structured first look at wellness patterns before choosing devices",
+      "Quiet, seated session with a practitioner beside you",
+      "Includes Inner Voice, Vitals, Comprehensive, and Body Systems reports",
+      "Helps sequence Frequency Matrix, light, theta, infrared, and core work",
+      "Educational insight—not a medical test or diagnostic device",
     ],
     idealFor: [
-      "Guests focused on recovery after injury or intense training",
-      "Those seeking cognitive clarity and cellular energy",
-      "Anyone building a longevity or regenerative protocol",
+      "New guests who want a map before committing to a series",
+      "Anyone curious about energy, stress, and recovery patterns",
+      "Guests building a whole-clinic plan with Szilvia Passfield",
     ],
     session:
-      "Sessions typically last 60 to 90 minutes. You remain seated, breathing normally, while our team monitors comfort. Ears may feel a gentle pressure change—similar to takeoff on a flight—which usually eases with swallowing.",
-    accent: "from-sky-200/40 to-emerald-100/20",
+      "First visits are typically 60–90 minutes so there is time to run the reports and talk. Follow-ups can be shorter. Wear comfortable clothing and plan to sit still with headphones. AO Scan is intended for educational wellness conversation only and does not diagnose, treat, or replace professional medical care.",
+    accent: "from-sky-200/40 to-indigo-100/20",
+  },
+  {
+    slug: "frequency-matrix-therapy",
+    name: "Frequency Matrix Therapy™",
+    shortName: "FMT",
+    category: "Frequency Recovery",
+    duration: "45–60 minutes",
+    experience: "Reclined · Light, PEMF & sound",
+    image: "/images/frequency-matrix.png",
+    tagline: "Polarized light, PEMF, and life frequencies—one coordinated recovery session.",
+    purpose:
+      "Frequency Matrix Therapy™ is a non-invasive wellness experience that combines three complementary forms of frequency-based stimulation: polarized light therapy, pulsed electromagnetic field therapy (PEMF), and therapeutic sound frequencies. Together they create a matrix of light, electromagnetic fields, sound, and vibration. The session is designed to support the body’s natural recovery processes, encourage deep relaxation, and promote greater physical and emotional well-being. It is a complementary recovery service—not a treatment for disease.",
+    howItWorks: [
+      "You recline on a supported table. Polarized light is directed over the body while a PEMF surface delivers gentle electromagnetic pulses.",
+      "Therapeutic sound frequencies play through the room so the session is felt as well as heard—light, field, and tone arriving together.",
+      "Polarized light is used to support local circulation and physical comfort; PEMF offers mild electromagnetic stimulation for musculoskeletal ease.",
+      "The sound layer invites a rest-and-recovery state: quieter mind, softer stress response, and a more complete environment for the other two modalities to work.",
+    ],
+    benefits: [
+      "May ease musculoskeletal discomfort, stiffness, and tension",
+      "Supports circulation and a sense of tissue recovery",
+      "Deep relaxation and a quieter stress response",
+      "Nervous-system balance—from heightened alertness toward rest",
+      "Improved comfort and readiness for movement or other therapies",
+      "Mental clarity and emotional settling through sound frequencies",
+    ],
+    idealFor: [
+      "Guests carrying physical tension, training load, or stored stress",
+      "Anyone who wants light, PEMF, and sound in one appointment",
+      "Those pairing recovery work with AO Scan, theta, or red light",
+    ],
+    session:
+      "Plan about 45–60 minutes of still, reclined time. Wear comfortable layers. We screen guests before FMT—especially if you are pregnant, have an implanted electronic device, have a seizure disorder, or are under care for a serious medical condition. Individual experiences vary; this service does not replace professional medical care.",
+    accent: "from-amber-200/30 to-sky-100/20",
   },
   {
     slug: "red-light-therapy",
@@ -78,7 +113,7 @@ export const treatments: Treatment[] = [
     idealFor: [
       "Guests seeking skin vitality and anti-aging support",
       "Athletes and anyone with sore, overworked muscles",
-      "Those pairing light therapy with detox, oxygen, or core work",
+      "Those pairing light therapy with Frequency Matrix, detox, or core work",
     ],
     session:
       "Most full-body sessions last about 15–20 minutes. Protective eyewear is provided. Results build with a series—photobiomodulation is a rhythm, not a one-time event.",
@@ -129,7 +164,7 @@ export const treatments: Treatment[] = [
     image: "/images/ion-foot-detox.jpg",
     tagline: "A quiet soak. Charged water. A gentle ritual to close the week lighter.",
     purpose:
-      "Ionic foot detox is a spa-style wellness treatment. You sit comfortably with your feet in a mineral basin while a low-level current ionizes the water. In wellness practice it is offered as a relaxing way to support circulation in the feet and legs, encourage a sense of release, and give the nervous system a pause. Guests often book it as a standalone reset or as a complement to infrared detox, oxygen, and light therapies.",
+      "Ionic foot detox is a spa-style wellness treatment. You sit comfortably with your feet in a mineral basin while a low-level current ionizes the water. In wellness practice it is offered as a relaxing way to support circulation in the feet and legs, encourage a sense of release, and give the nervous system a pause. Guests often book it as a standalone reset or as a complement to infrared detox, Frequency Matrix, and light therapies.",
     howItWorks: [
       "Your feet rest in warm water with a professional ion array. A gentle current charges particles in the water.",
       "You remain seated, usually for about 30 minutes, while the water’s appearance may change—an effect of minerals and ionization in the basin.",

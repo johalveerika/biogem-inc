@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge";
 export const metadata: Metadata = {
   title: "Treatments",
   description:
-    "Explore Biogem Clinic treatments: Hyperbaric Oxygen Cube, Red Light Therapy Bed, Theta Chamber, Ion Foot Detox, VibeX, Iyashi Dome, and AllCore360.",
+    "Explore Biogem Clinic treatments: AO Scan, Frequency Matrix Therapy, Red Light Therapy Bed, Theta Chamber, Ion Foot Detox, VibeX, Iyashi Dome, and AllCore360.",
 };
 
 const categories = Array.from(new Set(treatments.map((treatment) => treatment.category)));
@@ -22,9 +22,9 @@ export default function TreatmentsPage() {
           Technologies chosen for how they change the body—not how they photograph.
         </h1>
         <p className="mt-6 max-w-2xl text-lg leading-8 text-ink md:text-xl md:leading-9">
-          Each device has a job: oxygen for cells, light for mitochondria, theta for the brain, infrared for detox,
-          vibration for the nervous system, ions for a gentle reset, gravity for the core. Start with a consultation
-          and we will sequence them for you.
+          Each device has a job: AO Scan for insight, Frequency Matrix for light, PEMF, and sound, red light for
+          mitochondria, theta for the brain, infrared for detox, vibration for the nervous system, ions for a gentle
+          reset, gravity for the core. Start with a consultation and we will sequence them for you.
         </p>
         <div className="mt-6 flex flex-wrap gap-2">
           {categories.map((category) => (

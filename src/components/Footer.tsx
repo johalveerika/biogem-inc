@@ -11,13 +11,13 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-5 md:grid-cols-4 md:gap-12 md:px-8 md:py-16">
         <div className="md:col-span-1">
           <Image
-            src="/images/biogem-emblem.png"
-            alt="Biogem Inc. logo"
-            width={88}
-            height={88}
-            className="mb-4 h-20 w-20 rounded-full object-cover ring-1 ring-gold/30"
+            src="/images/biogem-logo.png"
+            alt="Biogem Private Healthspan Center"
+            width={160}
+            height={160}
+            className="mb-4 h-28 w-28 rounded-xl object-contain ring-1 ring-gold/25"
           />
-          <p className="font-display text-2xl text-gold-soft">Biogem Inc.</p>
+          <p className="text-xs tracking-[0.18em] text-gold uppercase">Private Healthspan Center</p>
           <p className="mt-2 text-sm leading-relaxed text-sand/70">{clinic.tagline}</p>
         </div>
 

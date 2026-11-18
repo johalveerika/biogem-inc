@@ -13,7 +13,7 @@ const pillars = [
   {
     icon: Sparkles,
     title: "Advanced technology",
-    copy: "Drug-free, high-end devices chosen to work on oxygen, light, frequency, heat, and core neurology—together, not in isolation.",
+    copy: "Drug-free, high-end devices chosen to work on frequency insight, light, sound, heat, and core neurology—together, not in isolation.",
   },
   {
     icon: Waves,
@@ -44,13 +44,13 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-gradient-to-t from-charcoal via-charcoal/80 to-charcoal/30 md:bg-gradient-to-r md:from-charcoal md:via-charcoal/75 md:to-charcoal/25" />
         </div>
         <div className="relative mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-end px-4 pb-16 pt-24 sm:px-5 sm:pb-20 sm:pt-28 md:px-8 md:pb-24 md:pt-36">
-          <div className="animate-rise flex items-center gap-3 sm:gap-4">
+          <div className="animate-rise flex items-center gap-4 sm:gap-5">
             <Image
-              src="/images/biogem-emblem.png"
-              alt="Biogem Inc. logo"
-              width={88}
-              height={88}
-              className="h-14 w-14 shrink-0 rounded-full object-cover ring-1 ring-gold/50 sm:h-16 sm:w-16 md:h-[88px] md:w-[88px]"
+              src="/images/biogem-logo.png"
+              alt="Biogem Private Healthspan Center"
+              width={200}
+              height={200}
+              className="h-24 w-24 shrink-0 rounded-xl object-contain ring-1 ring-gold/35 sm:h-28 sm:w-28 md:h-36 md:w-36"
               priority
             />
             <div className="min-w-0">
@@ -58,7 +58,10 @@ export default function HomePage() {
                 Burlington · Ontario
               </p>
               <p className="font-display mt-1 text-[2rem] leading-none tracking-[0.02em] text-gold-soft sm:text-4xl sm:tracking-[0.06em] md:text-6xl lg:text-7xl">
-                Biogem Inc.
+                Biogem
+              </p>
+              <p className="mt-2 text-[10px] tracking-[0.18em] text-sand/80 uppercase sm:text-xs sm:tracking-[0.24em]">
+                Private Healthspan Center
               </p>
             </div>
           </div>
@@ -69,8 +72,8 @@ export default function HomePage() {
             <span className="italic text-gold-soft">head to toe.</span>
           </h1>
           <p className="animate-rise delay-2 mt-5 max-w-xl text-base leading-7 text-sand/90 sm:mt-6 sm:text-lg sm:leading-relaxed">
-            Biogem Inc. is a complementary, regenerative wellness centre. Oxygen, light, brainwave therapy, infrared
-            detox, sound, and core technology—guided by an initial consultation with {doctor.name}.
+            Biogem Inc. is a complementary, regenerative wellness centre. AO Scan, Frequency Matrix, light, brainwave
+            therapy, infrared detox, sound, and core technology—guided by an initial consultation with {doctor.name}.
           </p>
           <div className="animate-rise delay-3 mt-8 flex w-full flex-col gap-3 sm:mt-10 sm:flex-row sm:flex-wrap sm:gap-4">
             <Button asChild size="xl" className="w-full sm:w-auto">
@@ -109,7 +112,7 @@ export default function HomePage() {
               <Badge variant="outline" className="border-gold/40 tracking-[0.2em] text-gold uppercase">
                 The suite
               </Badge>
-              <h2 className="font-display mt-3 text-3xl text-forest sm:text-4xl md:text-5xl">Seven technologies. One clinic.</h2>
+              <h2 className="font-display mt-3 text-3xl text-forest sm:text-4xl md:text-5xl">Eight technologies. One clinic.</h2>
             </div>
             <Button asChild variant="link" className="h-auto px-0 text-forest">
               <Link href="/treatments">
@@ -119,12 +122,12 @@ export default function HomePage() {
           </div>
           <div className="mt-8 grid gap-3 sm:mt-10 md:grid-cols-3">
             <TreatmentCard treatment={featured} featured />
-            {rest.slice(0, 2).map((treatment) => (
+            {rest.slice(0, 1).map((treatment) => (
               <TreatmentCard key={treatment.slug} treatment={treatment} />
             ))}
           </div>
-          <div className="mt-3 grid gap-3 sm:grid-cols-2 md:grid-cols-4">
-            {rest.slice(2).map((treatment) => (
+          <div className="mt-3 grid gap-3 sm:grid-cols-2 md:grid-cols-3">
+            {rest.slice(1).map((treatment) => (
               <TreatmentCard key={treatment.slug} treatment={treatment} />
             ))}
           </div>
@@ -140,7 +143,7 @@ export default function HomePage() {
           <h2 className="font-display mt-3 max-w-2xl text-3xl sm:text-4xl md:text-5xl">1 + 1 = 3</h2>
           <p className="mt-2 font-display text-xl italic text-gold-soft sm:text-2xl">Advanced technologies for resilient vitality</p>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-ivory/90">
-            When oxygen, light, frequency, heat, and core training are combined with intention, the effect is greater
+            When insight, light, frequency, heat, and core training are combined with intention, the effect is greater
             than any single machine. Biogem’s philosophy is proactive: optimize mitochondria, inflammation, nervous
             system tone, and structural support before dysfunction becomes the story of your decade.
           </p>
@@ -165,8 +168,9 @@ export default function HomePage() {
             <p className="mt-2 text-base tracking-wide text-moss uppercase">{doctor.title}</p>
             <p className="mt-6 text-lg leading-8 text-ink md:text-xl md:leading-9">{doctor.summary}</p>
             <p className="mt-4 text-lg leading-8 text-ink md:text-xl md:leading-9">
-              An initial consultation maps your history, goals, and which technologies belong in your plan—Theta for
-              the mind, AllCore360 for the spine, Iyashi and oxygen for the cells, light and sound for recovery.
+              An initial consultation maps your history, goals, and which technologies belong in your plan—AO Scan for
+              insight, Theta for the mind, AllCore360 for the spine, Frequency Matrix and Iyashi for recovery, light
+              and sound for the cells.
             </p>
             <Button asChild variant="charcoal" size="xl" className="mt-8">
               <Link href="/consultation">Reserve a consultation</Link>

@@ -23,7 +23,7 @@ const steps = [
   },
   {
     title: "Leave with a plan",
-    copy: "A sequenced path: perhaps theta and sleep first, then oxygen and light, then core. Or detox before performance. Yours will be specific.",
+    copy: "A sequenced path: perhaps AO Scan and sleep first, then Frequency Matrix and light, then core. Or detox before performance. Yours will be specific.",
   },
 ];
 
@@ -39,7 +39,7 @@ export default function ConsultationPage() {
             Initial consultation with {doctor.name}
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-8 text-ink md:text-xl md:leading-9">
-            This is the doorway to Biogem. Before you step into a cube, a dome, or a chamber, we sit down and decide
+            This is the doorway to Biogem. Before you step into a scan, a dome, or a chamber, we sit down and decide
             what your body is actually asking for. The consultation is how we keep advanced technology personal.
           </p>
         </div>

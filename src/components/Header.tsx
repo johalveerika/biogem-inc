@@ -49,20 +49,22 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-5 md:px-8">
-        <Link href="/" className="flex min-w-0 items-center gap-2 sm:gap-3">
+        <Link href="/" className="flex min-w-0 items-center gap-2.5 sm:gap-3">
           <Image
-            src="/images/biogem-emblem.png"
-            alt="Biogem Inc. logo"
-            width={56}
-            height={56}
-            className="h-10 w-10 shrink-0 rounded-full object-cover ring-1 ring-gold/40 sm:h-12 sm:w-12"
+            src="/images/biogem-logo.png"
+            alt="Biogem Private Healthspan Center"
+            width={128}
+            height={128}
+            className="h-12 w-12 shrink-0 rounded-md object-contain ring-1 ring-gold/30 sm:h-14 sm:w-14"
             priority
           />
           <div className="min-w-0 leading-tight">
             <p className="font-display truncate text-lg tracking-[0.08em] text-gold-soft sm:text-xl sm:tracking-[0.16em]">
-              Biogem Inc.
+              Biogem
             </p>
-            <p className="hidden text-[10px] tracking-[0.22em] text-sand/70 uppercase sm:block">Burlington Wellness</p>
+            <p className="hidden text-[10px] tracking-[0.18em] text-sand/70 uppercase sm:block">
+              Private Healthspan Center
+            </p>
           </div>
         </Link>
 
@@ -119,8 +121,19 @@ export function Header() {
               className="w-full border-gold/20 bg-charcoal text-ivory data-[side=right]:w-full sm:max-w-sm [&_[data-slot=sheet-close]]:text-ivory"
             >
               <SheetHeader className="border-b border-white/10">
-                <SheetTitle className="font-display text-2xl text-gold-soft">Biogem Inc.</SheetTitle>
-                <SheetDescription className="text-sand/70">Healing, from head to toe.</SheetDescription>
+                <div className="flex items-center gap-3">
+                  <Image
+                    src="/images/biogem-logo.png"
+                    alt=""
+                    width={64}
+                    height={64}
+                    className="h-12 w-12 rounded-md object-contain ring-1 ring-gold/30"
+                  />
+                  <div>
+                    <SheetTitle className="font-display text-2xl text-gold-soft">Biogem</SheetTitle>
+                    <SheetDescription className="text-sand/70">Private Healthspan Center</SheetDescription>
+                  </div>
+                </div>
               </SheetHeader>
               <nav className="flex flex-col gap-1 px-4">
                 {links.map((link) => (
